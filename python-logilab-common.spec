@@ -37,3 +37,7 @@ functionality used by various free software projects supported by Logilab.
 %exclude %_bindir/*
 %py_sitedir/logilab/*
 %exclude %py_sitedir/logilab/common/test*
+%if "%py_ver" == "2.5"
+%py_sitedir/*.egg-info
+%endif
+
