@@ -11,6 +11,7 @@ Source0: %{module}-%{version}.tar.bz2
 License: GPL
 Group: 	 Development/Python
 Url: 	 http://www.logilab.org/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:  python-egenix-mx-base
 BuildRequires: python-devel
 BuildArch: noarch
