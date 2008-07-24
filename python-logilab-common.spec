@@ -1,7 +1,7 @@
 %define module	logilab-common
 %define name 	python-%{module}
 %define version 0.28.2
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary: Python modules used by Logilab software
 Name: 	 %{name}
