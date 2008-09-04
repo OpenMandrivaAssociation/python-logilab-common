@@ -1,13 +1,13 @@
 %define module	logilab-common
 %define name 	python-%{module}
-%define version 0.28.2
-%define release %mkrel 4
+%define version 0.34.0
+%define release %mkrel 1
 
 Summary: Python modules used by Logilab software
 Name: 	 %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{module}-%{version}.tar.lzma
+Source0: %{module}-%{version}.tar.gz
 License: GPLv2+
 Group: 	 Development/Python
 Url: 	 http://www.logilab.org/
@@ -17,7 +17,7 @@ BuildRequires: python-devel
 BuildArch: noarch
 
 %description
-This package contains a number of Python modules that provide low level 
+This package contains a number of Python modules that provide low level
 functionality used by various free software projects supported by Logilab.
 
 %prep
@@ -32,7 +32,7 @@ functionality used by various free software projects supported by Logilab.
 %clean
 %__rm -rf %{buildroot}
 
-%files 
+%files
 %defattr(-,root,root)
 %doc README COPYING ChangeLog
 %exclude %_bindir/*
