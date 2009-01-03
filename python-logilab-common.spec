@@ -1,7 +1,7 @@
 %define module	logilab-common
 %define name 	python-%{module}
 %define version 0.36.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Python modules used by Logilab software
 Name:		%{name}
@@ -38,7 +38,4 @@ functionality used by various free software projects supported by Logilab.
 %exclude %_bindir/*
 %py_sitedir/logilab/*
 %exclude %py_sitedir/logilab/common/test*
-%if "%py_ver" == "2.5"
 %py_sitedir/*.egg-info
-%endif
-
