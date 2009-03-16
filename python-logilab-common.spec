@@ -39,4 +39,3 @@ functionality used by various free software projects supported by Logilab.
 %py_sitedir/logilab/*
 %exclude %py_sitedir/logilab/common/test*
 %py_sitedir/*.egg-info
-%py_sitedir/*.pth
