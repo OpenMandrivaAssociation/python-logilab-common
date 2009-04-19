@@ -36,7 +36,6 @@ functionality used by various free software projects supported by Logilab.
 %defattr(-,root,root)
 %doc README COPYING ChangeLog
 %exclude %_bindir/*
-%py_sitedir/*.pth
-%py_sitedir/logilab/*
+%py_sitedir/logilab*
 %exclude %py_sitedir/logilab/common/test*
 %py_sitedir/*.egg-info
