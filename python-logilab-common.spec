@@ -1,13 +1,13 @@
 %define module	logilab-common
 %define name 	python-%{module}
-%define version 0.46.0
+%define version 0.46.1
 %define release %mkrel 1
 
 Summary:	Python modules used by Logilab software
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Source0:	%{module}-%{version}.tar.gz
+Source0:	http://ftp.logilab.org/pub/common/%{module}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
