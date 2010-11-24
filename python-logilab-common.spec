@@ -1,7 +1,7 @@
 %define module	logilab-common
 %define name 	python-%{module}
-%define version 0.52.1
-%define release %mkrel 2
+%define version 0.53.0
+%define release %mkrel 1
 
 Summary:	Python modules used by Logilab software
 Name:		%{name}
@@ -27,7 +27,7 @@ functionality used by various free software projects supported by Logilab.
 
 %install
 %__rm -rf %{buildroot}
-%__python setup.py install --root=%{buildroot}
+PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 
 %clean
 %__rm -rf %{buildroot}
