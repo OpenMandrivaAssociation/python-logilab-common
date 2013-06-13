@@ -6,8 +6,8 @@
 
 Summary:	Python modules used by Logilab software
 Name:		%{name}
-Version:	0.58.3
-Release:	2
+Version:	0.59.0
+Release:	1
 Source0:	http://ftp.logilab.org/pub/common/logilab-common-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
@@ -31,7 +31,6 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 find %{buildroot} -perm 600 -exec chmod a+r {} \;
 
 %files
-%defattr(-,root,root)
 %doc README COPYING ChangeLog
 %_bindir/pytest
 %py_sitedir/logilab*
@@ -180,4 +179,5 @@ find %{buildroot} -perm 600 -exec chmod a+r {} \;
 
 * Tue Mar 20 2007 Lev Givon <lev@mandriva.org> 0.21.2-1mdv2007.0
 - Initial Mandriva package.
+
 
