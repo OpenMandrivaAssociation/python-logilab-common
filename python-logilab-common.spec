@@ -1,14 +1,13 @@
 %define module	logilab-common
-%define name 	python-%{module}
 
 # Depenedency geenrator finds too many abi deps here
 %define __noautoreq 'python\\(abi\\).*'
 
 Summary:	Python modules used by Logilab software
-Name:		%{name}
-Version:	0.60.0
+Name:		python-%{module}
+Version:	0.60.1
 Release:	1
-Source0:	http://download.logilab.org/pub/common/logilab-common-%{version}.tar.gz
+Source0:	http://ftp.logilab.org/pub/common/logilab-common-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
@@ -32,8 +31,8 @@ find %{buildroot} -perm 600 -exec chmod a+r {} \;
 
 %files
 %doc README COPYING ChangeLog
-%_bindir/pytest
-%py_puresitedir/logilab*
+%{_bindir}/pytest
+%{py_puresitedir}/logilab*
 
 
 %changelog
@@ -179,6 +178,7 @@ find %{buildroot} -perm 600 -exec chmod a+r {} \;
 
 * Tue Mar 20 2007 Lev Givon <lev@mandriva.org> 0.21.2-1mdv2007.0
 - Initial Mandriva package.
+
 
 
 
