@@ -5,7 +5,7 @@
 
 Summary:	Python modules used by Logilab software
 Name:		python-%{module}
-Version:	0.60.1
+Version:	0.61.0
 Release:	1
 Source0:	http://ftp.logilab.org/pub/common/logilab-common-%{version}.tar.gz
 License:	GPLv2+
@@ -178,6 +178,7 @@ find %{buildroot} -perm 600 -exec chmod a+r {} \;
 
 * Tue Mar 20 2007 Lev Givon <lev@mandriva.org> 0.21.2-1mdv2007.0
 - Initial Mandriva package.
+
 
 
 

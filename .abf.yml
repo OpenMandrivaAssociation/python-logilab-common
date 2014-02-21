@@ -4,5 +4,6 @@ removed_sources:
   logilab-common-0.59.0.tar.gz: d8d0ab900d75ef0fae90a85131955d7df6c7c1a3
   logilab-common-0.59.1.tar.gz: 30d88ccb3f3cc1915a9233b123f3ba8481a1cd4c
   logilab-common-0.60.0.tar.gz: 224cd40d56fcb5c11693958628b25797c8cd218f
-sources:
   logilab-common-0.60.1.tar.gz: b8b8a9e9d3cfd32a567cec45ef1069c077dab9f1
+sources:
+  logilab-common-0.61.0.tar.gz: 700c87f45133a8a20e1ac815f197cc1a5a408e27
