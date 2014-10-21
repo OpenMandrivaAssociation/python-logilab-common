@@ -5,7 +5,7 @@
 
 Summary:	Python modules used by Logilab software
 Name:		python-%{module}
-Version:	0.62.0
+Version:	0.62.1
 Release:	1
 Source0:	http://download.logilab.org/pub/common/logilab-common-%{version}.tar.gz
 License:	GPLv2+
