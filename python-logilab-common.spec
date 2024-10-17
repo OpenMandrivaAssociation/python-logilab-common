@@ -10,7 +10,7 @@ Release:	2
 Source0:	http://download.logilab.org/pub/common/logilab-common-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
-Url:		http://www.logilab.org/
+Url:		https://www.logilab.org/
 Requires:	python-egenix-mx-base
 Requires:       python(abi) = %{py_ver}
 BuildArch:	noarch
